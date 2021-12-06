@@ -34,7 +34,7 @@ Expectation<dynamic> _exceptionResponse(
 }
 
 final _timer = _TimeStampProvider();
-final _capturedArgs = <dynamic>[];
+final capturedArgs = <dynamic>[];
 final _storedArgs = <ArgMatcher>[];
 final _storedNamedArgs = <String, ArgMatcher>{};
 final _verifyCalls = <_VerifyCall>[];
